@@ -1,0 +1,22 @@
+#table {
+    height: 500px;
+    width: 500px;
+    background-color:olivedrab;
+    border:10px solid sienna;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid black;
+    font-size: 20px;
+    box-shadow: 2px 2px black;
+}
+
+#dealButton {
+    height: 50px;
+    width: 100px;
+    position:absolute;
+    top: 225px;
+    left: 580px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="table">
+        <button onclick="deal()" onmouseover="over(this)" onmouseout="out(this)" id="dealButton">Deal</button>
+        <p id="dealerHandValue"></p>
+        <p id="dealerHandHTML"></p>
+        <p id="userHandHTML"></p>
+        <p id="userHandValue"></p>
+        <button onmouseover="over(this)" onmouseout="out(this)" onclick="hit()" id="hitButton">Hit</button>
+        <button onmouseover="over(this)" onmouseout="out(this)" onclick="stay()">Stay</button>
+    </div>
+</body>
+</html>
